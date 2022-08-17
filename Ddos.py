@@ -1,11 +1,19 @@
+
 import requests
+import threading
+
+def make_request(name):
+    while True:
+        r = requests.get('Give your site here :)')
+        print("Response code: {}".format(str(r.status_code)))
 
 
+thread = 128
+while thread >=1:
+# while True:
 
-r = requests.get('https://w3schools.com')
-print(str(r.status_code));
+    x = threading.Thread(target=make_request,args=(thread,))
+    print("Starting thread {}".format(thread))
+    x.start()
+    thread-=1
 
-print("Raw HTML:\n")
-print(r.text)
-print("Status Code:",str(r.status_code));
-# print(r.content)
