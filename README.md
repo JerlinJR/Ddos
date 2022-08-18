@@ -1,5 +1,5 @@
 
-Denial Of Service(Dos) Attack Script
+## Denial Of Service(Dos) Attack Script
 
     
    
@@ -26,7 +26,7 @@ For almost every Linux system, the following command could be used to install Py
 
 ### Windows
 
-Step 1: Select Version of Python to Install. Here: https://www.python.org/downloads/windows/
+Step 1: Select Version of Python to Install. Here: https://www.python.org/downloads/windows/   
 Step 2: Download Python Executable Installer.  
 Step 3: Run The Executable Installer.  
 Step 4: Verify Python Was Installed On Windows.  
