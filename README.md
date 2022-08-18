@@ -54,7 +54,7 @@ To run the script use :
 
 ## Disclaimer 
 
-    THIS TOOL WAS WRITTEN FOR PRIVATE USAGE ONLY!
+    THIS SCRIPT WAS WRITTEN FOR PRIVATE USAGE ONLY!
 
    
 These DoS script is intended for testing purposes only.   
